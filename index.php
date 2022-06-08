@@ -27,13 +27,13 @@ $censored = str_replace($badword, "***", $user_text);
     <?php 
     echo $censored;
     ?>
-     <!-- ad esewmpio http://localhost/php-badwords/?badword=sit -->
+     <!-- ad esempio http://localhost/php-badwords/?badword=sit -->
 </p>
 <h2>
     Lunghezza del mio paragrafo con censura
 </h2>
 <p>
     <?php 
-    echo "La stringa censurata è lunga" . " " . $text_length . " " . "caratteri";
+    echo "La stringa censurata è lunga" . " " . $censored . " " . "caratteri";
     ?>
 </p>
